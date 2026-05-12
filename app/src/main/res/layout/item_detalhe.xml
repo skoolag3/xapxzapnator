@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Foto do Conversante"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Conversante"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txtCelular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celular Conversante"
+            android:textSize="16sp"
+            android:textColor="#0000FF"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail Conversante"
+            android:textSize="16sp"
+            android:textColor="#0000FF"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

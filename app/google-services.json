@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200599596954",
+    "project_id": "xapxzapnator66",
+    "storage_bucket": "xapxzapnator66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200599596954:android:ca5a287006c88ec1d01423",
+        "android_client_info": {
+          "package_name": "com.skoolage.xapxzapnator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgn2FEc9LdikY2lXw-bagtKKhcY_6hNyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
